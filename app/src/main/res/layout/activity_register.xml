@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/air2_dark_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="DevOps Portal"
+        android:textColor="@color/air2_vibrant_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/white"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="14dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/white"
+        android:hint="Password (at least 6 characters)"
+        android:inputType="textPassword"
+        android:paddingHorizontal="14dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/air2_vibrant_blue"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:padding="8dp"
+        android:text="Already have an account? Back to Login"
+        android:textColor="#93C5FD"
+        android:textSize="14sp" />
+</LinearLayout>

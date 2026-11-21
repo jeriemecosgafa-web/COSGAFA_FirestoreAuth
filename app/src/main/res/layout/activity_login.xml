@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/air2_dark_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Your Custom Logo -->
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="DevOps Portal Logo"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Log in to your DevOps Portal"
+        android:textColor="#93C5FD"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/white"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="14dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="14dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/air2_vibrant_blue"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGoToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:padding="8dp"
+        android:text="Don't have an account? Sign up"
+        android:textColor="#93C5FD"
+        android:textSize="14sp" />
+</LinearLayout>
